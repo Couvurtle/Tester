@@ -1,0 +1,24 @@
+public class Tester{
+
+  public static void main(String[] args){
+
+    int[] money = new int[]{50, 25, 26, 1, 99, 63};
+
+		int max = money[0];
+		int min = money[0];
+
+		for(int i = 0; i < money.length; i++){
+
+			if(money[i]> max){
+				max = money[i];
+			}else if(money[i]< min){
+				min = money[i];
+			}
+
+		}
+		System.out.println("max = " + max);
+		System.out.println("min = " + min);
+
+	}
+  }
+}
